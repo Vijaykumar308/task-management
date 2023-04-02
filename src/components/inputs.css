@@ -1,0 +1,47 @@
+input[type="text"]{
+    font-size: 15px;
+    padding: 7px 9px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 24rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+input[type="button"]{
+    all: unset;
+    margin-left: 2rem;
+    background: #3785eb;
+    text-align: center;
+    padding: 8px 23px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.list{
+    margin: 28px 0px;
+    width: 100%;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    text-transform: capitalize;
+}
+.listItems{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+.deleteBtn{
+    all: unset;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: #ababab;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+}
